@@ -1,0 +1,152 @@
+
+.carousel-indicators {
+    bottom: -55%; /* Ajuste este valor conforme necessário */
+}
+
+.btnbb {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    border-color: #2a92db; 
+    color: #2a92db;
+}
+
+.btnbb:hover {
+    transform: scale(1.1); /* Aumenta em 10% e inclina 5 graus */
+    color: white;
+    background-color: #2a92db;
+    
+}
+
+.btnaa {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    border-color: #206ca1; 
+    color: #206ca1;
+}
+
+.btnaa:hover {
+    transform: scale(1.1); /* Aumenta em 10% e inclina 5 graus */
+    color: white;
+    background-color: #206ca1;
+    
+}
+
+.btn_dangercardanimal {
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    color: red;
+    border-color: red;
+    border: solid 2px;
+}
+
+.btn_dangercardanimal:hover {
+    color: #ffffff;
+    border-color: red;
+    background-color: red;
+}
+
+.carda img {
+    height: 200px; /* Altura das imagens nos cards */
+    object-fit: cover;
+  }
+
+  .carda {
+    margin: 10px; /* Espaçamento entre os cards */
+    box-shadow:  5px 5px 5px #bebebe;    
+  }
+
+
+  .cardb img {
+    height: 200px; /* Altura das imagens nos cards */
+    object-fit: cover;
+  }
+
+  .cardb {
+    margin: 10px; /* Espaçamento entre os cards */
+    box-shadow:  5px 5px 5px #bebebe;
+    display: flex;
+    flex-direction: column;
+    height: auto; /* Deixe o card ajustar automaticamente a altura */
+    overflow: hidden;
+  }
+
+  .principalcardtitle2 {
+    color: #2a92db;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+
+    display: -webkit-box;                /* Define o contêiner como um box flexível para clamping */
+    -webkit-line-clamp: 2;               /* Limita o texto a 2 linhas */
+    -webkit-box-orient: vertical;        /* Define a orientação do box como vertical */
+    overflow: hidden;                    /* Esconde o conteúdo que ultrapassa o limite */
+    text-overflow: ellipsis;             /* Adiciona "..." quando o texto é cortado */
+    max-width: 100%; 
+    width: calc(62ch);                    /* Define o limite de 62 caracteres (aproximadamente) */
+}
+
+
+.principalcardprice {
+    font-size: 1.50rem;                /* Tamanho de fonte maior para o preço */
+    font-weight: bold;                 /* Deixa o texto em negrito */
+    color: #028600;                    /* Cor vermelha para destacar o preço */
+    margin-top: 10px;                  /* Espaço acima do preço */
+    margin-bottom: 10px;               /* Espaço abaixo do preço */
+    letter-spacing: 0.5px;             /* Um pouco de espaçamento entre as letras */
+    text-align: center;                /* Alinha o texto ao centro */
+    text-decoration: none;             /* Remove underline se houver */
+}
+
+.principalcardprice::before {
+    content: "R$ ";                    /* Adiciona o símbolo de Real antes do preço */
+    font-size: 1.6rem;                  /* Tamanho do símbolo de Real maior */
+    color: #028600;                    /* Cor vermelha para o símbolo de Real */
+}
+
+.principalcardprice span {
+    font-size: 1.25rem;                 /* Ajuste do preço */
+    font-weight: bold;                 /* Preço em negrito */
+    color: #028600;                    /* Cor do preço */
+}
+
+.principalcardtitle3 {
+    display: -webkit-box;                /* Define o contêiner como um box flexível para clamping */
+    -webkit-box-orient: vertical;        /* Define a orientação do box como vertical */
+    overflow: hidden;                    /* Esconde o conteúdo que ultrapassa o limite */
+    -webkit-line-clamp: 2;               /* Limita o texto a 2 linhas */
+    text-overflow: ellipsis;             /* Adiciona "..." quando o texto é cortado */
+    max-width: 100%;                     /* Limita a largura do título ao tamanho do contêiner */
+}
+
+.offcanvas-body button {
+        background-color: transparent; /* Cor do fundo do botão */
+        color: darkcyan; /* Cor do texto */
+        border: solid; /* Remover borda padrão */
+        border-color: darkcyan;
+        padding: 10px 20px; /* Espaçamento interno */
+        margin: 10px 0; /* Espaçamento entre os botões */
+        width: 100%; /* Botão ocupa toda a largura disponível */
+        font-size: 16px; /* Tamanho da fonte */
+        border-radius: 5px; /* Borda arredondada */
+        transition: all 0.3s ease; /* Transição suave para os efeitos */
+}
+
+/* Efeito de hover para os botões */
+.offcanvas-body button:hover {
+    background-color: darkcyan; /* Cor de fundo quando passar o mouse */
+    border-color: darkcyan;
+    cursor: pointer; /* Mostrar cursor de pointer */
+    transform: scale(1.05); /* Aumenta o tamanho do botão */
+    font-size: 18px; /* Aumenta o tamanho da fonte ao passar o mouse */
+    color: white;
+}
+
+/* Efeito de foco para os botões */
+.offcanvas-body button:focus {
+    outline: none; /* Remover a borda padrão ao focar no botão */
+    box-shadow: 0 0 5px rgba(106, 201, 246, 0.7); /* Adicionar uma sombra ao focar */
+    
+}
+  
+
+  
